@@ -1,5 +1,5 @@
 ### model description
-model name: SEMFPM(Self-Attention Based Multi-model Fusion Prediction Model).
+model name: Self-Attention Based Multi-model Fusion Prediction Model.
 
 self-attention mechanism is leveraged to fuse features got by sub-model.
 
