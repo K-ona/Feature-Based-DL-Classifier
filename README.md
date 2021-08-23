@@ -1,5 +1,7 @@
 # Model Description
 
+参加比赛期间设计的基于pytorch的深度学习特征分类器
+
 Configuration: Python 3.6.9, Pytorch 1.7.1
 
 model name: Self-Attention Based Multi-model Fusion Prediction Model.
