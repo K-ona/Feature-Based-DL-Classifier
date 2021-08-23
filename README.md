@@ -1,4 +1,4 @@
-# model description
+# Model Description
 
 Configuration: Python 3.6.9, Pytorch 1.7.1
 
@@ -6,7 +6,8 @@ model name: Self-Attention Based Multi-model Fusion Prediction Model.
 
 self-attention mechanism is leveraged to fuse features got by sub-model.
 
-model framework:
+## model framework
+
 <img src=".\模型架构.png" alt= '示意图' style="zoom: 50%;" />
 
 ## train the model command
