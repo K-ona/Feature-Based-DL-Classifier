@@ -1,4 +1,7 @@
-### model description
+# model description
+
+Configuration: Python 3.6.9, Pytorch 1.7.1
+
 model name: Self-Attention Based Multi-model Fusion Prediction Model.
 
 self-attention mechanism is leveraged to fuse features got by sub-model.
@@ -6,9 +9,10 @@ self-attention mechanism is leveraged to fuse features got by sub-model.
 model framework:
 <img src=".\模型架构.png" alt= '示意图' style="zoom: 50%;" />
 
-### train the model command: 
+## train the model command
+
     python fit.py [-parameters]
-parameters description: 
+parameters description:
 
     -data_path 
         path of data used for fitting the model, e.g. ./data/trainingdata.csv
@@ -36,7 +40,9 @@ parameters description:
         model parameter save dir, default='./model/'
     -train_balance
         whether to enhance data, default=True
-### use model to predict
+
+## use model to predict
+
     python predict.py [-parameters]
 parameters description:
 
@@ -48,5 +54,5 @@ parameters description:
         dir of prediction results, default="./data/testing_data/
      -input_size
         dimention of input featrue (number of column of input_file), default=28
-        
+
 the prediction result will be stored in save_dir
